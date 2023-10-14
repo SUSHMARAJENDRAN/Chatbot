@@ -1,0 +1,38 @@
+body{
+    justify-content: center;
+    text-align: center;
+}
+.chat-messsage{
+   background: linear-gradient(pink,red,pink);
+   margin: 1em 25em;
+   padding: 1em;
+   max-height: 450px;
+  overflow-y: auto;
+  border-radius: 25px;
+  color:black;
+}
+.message-right{
+    background-color:blueviolet;
+    border-radius: 25px;
+    padding: .5em 1em !important;
+    margin: 1em;
+}
+.message-left{
+    background-color: blue;
+    border-radius: 25px;
+    padding: .5em 1em !important;
+    margin: 1em;
+}
+.message-text{
+    font-size: 17px;
+}
+.message-icons{
+    font-size: 25px;
+    margin:5px;
+
+}
+.text-primary{
+    font-size: 40px;
+    position: relative;
+    top:50px;
+}
